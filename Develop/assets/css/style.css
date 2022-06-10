@@ -3,16 +3,17 @@
     padding: 0;
     margin: 0;
 }
+
 /*Sets background color */
 body {
-    background-color: #d9dcd6;
+    background-color: red;
 }
 
- /* The header "Horiseon" characteristics */
+ /* The header "Daniel" characteristics */
 .header { 
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: black;
     color: #ffffff;
 }
 
@@ -21,9 +22,9 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-/* Changes the letters "seo" to a different color */
+/* Changes the letters "tan" to a different color */
 .header h1 .seo {
-    color: #d9dcd6;
+    color: white;
     flex-wrap: wrap;
 }
 /* */
@@ -54,26 +55,26 @@ p {
 }
 /*Characteristics of the image named "digital marketing meeting*/
 .hero {
-    height: 800px;
+    height: 500px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    margin-bottom: 20px;
+    background-image: url("../images/RhodesSeal.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .float-left {
     float: left;
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .float-right {
     float: right;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 .content {
-    width: 75%;
+    width: 100%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -86,111 +87,64 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-/*Color of text in the icon columns*/
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/*Color of text in the icon columns*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/*Color of text in the icon columns*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+    background-color: red;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/*Characteristic of the icon*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*Characteristic of the icon*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*Characteristic of the icon*/
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*Characteristics of the box on the webpage labeled "search engine optimiazation"*/
-.search-engine-optimization {
+/*Characteristics of the box on the webpage labeled "Previous-work"*/
+.previous-work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color:black;
     color: #ffffff;
     flex-wrap: wrap;
 }
-/*Characteristics of the box on the webpage labeled "Online Reputation Management" */
-.online-reputation-management {
+/*Characteristics of the box on the webpage labeled "aboutme" */
+.aboutme {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color:black;
     color: #ffffff;
     flex-wrap: wrap;
 }
-/*Characteristics of the box on the webpage labeled "Social Media Marketing"*/
-.social-media-marketing {
+/*Characteristics of the box on the webpage labeled "contact"*/
+.contact {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color:black;
     color: #ffffff;
     flex-wrap: wrap;
 }
 
 /*Sets the heigh of the image*/
-.search-engine-optimization img {
+.previous-work img {
     max-height: 200px;
 }
 /*Sets the heigh of the image*/
-.online-reputation-management img {
+.aboutme img {
     max-height: 200px;
 }
-/*Sets the heigh of the image*/
-.social-media-marketing img {
+/*Sets the height of the image*/
+.contact img {
     max-height: 200px;
 }
 /*Sets margin and font size*/
-.search-engine-optimization h2 {
+.previous-work h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 /*Sets margin and font size*/
-.online-reputation-management h2 {
+.aboutme h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 /*Sets margin and font size*/
-.social-media-marketing h2 {
+.contact h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
